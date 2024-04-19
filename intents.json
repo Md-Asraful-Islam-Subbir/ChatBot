@@ -1,0 +1,309 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "ok"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "tnx",
+        "thank you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You'r welcome!!"
+      ]
+    },
+    {
+      "tag": "Packages",
+      "patterns": [
+        " How many packages do you have?",
+        " kinds of packages are there?",
+        " give me your packages?",
+        "packages",
+        "membership",
+        "Membership"
+      ],
+      "responses": [
+        "There are 3 packages:1.Preliminary,2.Wt.Gain,3.Wt.Loss",
+        "There are 3 packages:1.Preliminary for 800 BDT,2.Wt.Gain for 1000 BDT,3.Wt.Loss for 1500 BDT"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Bkash?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal,Bkash & Cash",
+        "We accept most major credit cards, and Paypal & cash"
+      ]
+    },
+    {
+      "tag": "I have a question",
+      "patterns": [
+        "Can I ask a question?",
+        "I have a small query?",
+        "I need a help"
+      ],
+      "responses": [
+        "Tell me, I will give you proper solution",
+        "I will give you proper solution, tell me or call or email us"
+      ]
+    },
+    {
+      "tag": "What time do you guys open?",
+      "patterns": [
+        "Opening time?",
+        "Closing time?",
+        "open time?",
+        "close time?"
+      ],
+      "responses": [
+        "Fitness Freak Gym opens at 6:00 am to 11:30 pm",
+        "Fitness Freak Gym opens at 6:00 am and closes at 11:30 pm"
+      ]
+    },
+    {
+      "tag": "Do you have parking?",
+      "patterns": [
+        "do you have parking?",
+        "parking?",
+        "car parking?",
+        "bike parking?"
+      ],
+      "responses": [
+        "Yes,Fitness Freak Gym have a large parking place for car & bike!!",
+        "Yes,Fitness Freak Gym have a large parking place for car & bike!!Happy parking !!!"
+      ]
+    },
+    {
+      "tag": "Tell me about you club facilities?",
+      "patterns": [
+        "tell me about you club facilities?",
+        "Club facilities?",
+        "club facilities?",
+        "benefits?"
+      ],
+      "responses": [
+        "Welcome to Fitness Freak! Our goal is to change lives through encouraging and motivating our members to success using the very latest technology in body assessments and activity monitoring. We are here to support each of our members to ensure they achieve their health and fitness goals."
+      ]
+    },
+    {
+      "tag": "Gym location?",
+      "patterns": [
+        "tell me about your gym location?",
+        "gym location?",
+        "address?",
+        "gym address?"
+      ],
+      "responses": [
+        "Plot No. 182, Beside Vishal Mega Mart Aadarsh Abhyasika, Bhande Plot Square Nandanwan Road, Nagpur, Maharashtra 440024, India"
+      ]
+    },
+    {
+      "tag": "Gym phone number?",
+      "patterns": [
+        "tell me about your gym phone number?",
+        "phone number?",
+        "Phone number?",
+        "mobile number?"
+      ],
+      "responses": [
+        "+8801878507129"
+      ]
+    },
+    {
+      "tag": "Membership form?",
+      "patterns": [
+        "tell me how to become gym member?",
+        "membership form?",
+        "form?",
+        "registration form?"
+      ],
+      "responses": [
+        "Go to the 'Register' page to fill the informations or come to the gym. You are welcome !!"
+      ]
+    },
+    {
+      "tag": [
+        "Capital of india?"
+      ],
+      "patterns": [
+        "Capital of india?"
+      ],
+      "responses": [
+        "The capital of India is New Delhi."
+      ]
+    },
+    {
+      "tag": [
+        "Capital of nepal?"
+      ],
+      "patterns": [
+        "Capital of nepal?"
+      ],
+      "responses": [
+        "The capital of Nepal is Kathmandu."
+      ]
+    },
+    {
+      "tag": [
+        "what is AI?"
+      ],
+      "patterns": [
+        "what is AI?"
+      ],
+      "responses": [
+        "AI stands for Artificial Intelligence. It refers to the simulation of human intelligence in machines that are programmed to think, learn, and problem-solve like a human. AI involves the development of computer systems capable of performing tasks that typically require human intelligence, such as speech recognition, decision-making, problem-solving, and visual perception. AI techniques include machine learning, natural language processing, computer vision, and robotics, among others. The ultimate goal of AI is to create machines that can perform tasks autonomously and exhibit intelligence and cognitive abilities similar to humans."
+      ]
+    },
+    {
+      "tag": [
+        "Capital of iraq?"
+      ],
+      "patterns": [
+        "Capital of iraq?"
+      ],
+      "responses": [
+        "The capital of Iraq is Baghdad."
+      ]
+    },
+    {
+      "tag": [
+        "tell me about ai logic?"
+      ],
+      "patterns": [
+        "tell me about ai logic?"
+      ],
+      "responses": [
+        "AI logic refers to the reasoning and decision-making processes employed by artificial intelligence systems. It involves the application of rules and algorithms to process, analyze, and interpret data, enabling AI systems to make informed and rational choices.\n\nAI logic can take various forms, including symbolic logic, probabilistic logic, and fuzzy logic. Symbolic logic involves the use of mathematical symbols and logical operators to represent and manipulate knowledge and reasoning. It helps AI systems decide on an appropriate action based on logical rules and the current state of the system.\n\nProbabilistic logic, on the other hand, deals with uncertainties and likelihoods. It assigns probability values to various events and uses these probabilities to reason and make decisions. This approach is helpful when dealing with incomplete or uncertain information.\n\nFuzzy logic introduces the concept of vagueness and uncertainty into decision-making. It allows AI systems to consider ambiguous or imprecise information and make decisions based on the degree of membership in different categories. This logic is useful in situations where decisions are subjective or when dealing with information that is not binary.\n\nAI logic can be implemented using various techniques, including rule-based systems, neural networks, and machine learning algorithms. Rule-based systems use a set of predefined rules and facts to determine the outcome of a decision. Neural networks and machine learning algorithms learn from data and experience to make predictions or decisions without explicit programming.\n\nOverall, AI logic plays a crucial role in enabling intelligent behavior in artificial intelligence systems. It provides the foundation for reasoning, decision-making, and problem-solving capabilities, allowing AI to mimic human-like cognitive processes."
+      ]
+    },
+    {
+      "tag": [
+        "who is AI bot creator?"
+      ],
+      "patterns": [
+        "who is AI bot creator?"
+      ],
+      "responses": [
+        "There are numerous individuals and teams involved in creating AI chatbot technologies. Some notable companies that have developed AI bot technologies include OpenAI, Microsoft, Google, Facebook, and IBM. Additionally, there are many independent developers and researchers who contribute to the field of AI and create their own chatbot systems."
+      ]
+    },
+    {
+      "tag": [
+        "what is AI logic?"
+      ],
+      "patterns": [
+        "what is AI logic?"
+      ],
+      "responses": [
+        "AI logic refers to the reasoning and decision-making capabilities of artificial intelligence systems. It involves the ability of AI systems to analyze data, understand patterns, and make informed judgments or predictions. AI logic is based on algorithms and mathematical models that enable machines to solve problems and mimic human-like thinking processes. This includes various techniques such as rule-based systems, machine learning, and natural language processing, among others. The goal of AI logic is to enable machines to make intelligent choices and actions based on their understanding and interpretation of data."
+      ]
+    },
+    {
+      "tag": [
+        "patuakhali"
+      ],
+      "patterns": [
+        "patuakhali"
+      ],
+      "responses": [
+        "Patuakhali is a district located in the Barisal Division of Bangladesh. It is bordered by the districts of Barguna to the south, Bhola and Lakshmipur to the east, Barisal to the west, and Jhalokati to the north. The district has a total area of 3,215.63 square kilometers.\n\nThe main river in Patuakhali is the Payra River, which flows through the district and eventually joins the Bay of Bengal. Patuakhali is known for its scenic beauty, including the Kuakata sea beach, which is a popular tourist destination.\n\nThe economy of Patuakhali is primarily based on agriculture and fishing. The district is known for its production of rice, jute, sugarcane, and various fruits. The fishing industry also plays a significant role in the local economy, with many residents engaged in fishing activities.\n\nPatuakhali has a number of educational institutions, including schools, colleges, and a university. The district is also home to several historical and cultural landmarks, such as the Kuakata Buddhist Temple and the Rupsa-Piya Archaeological Site.\n\nOverall, Patuakhali is a vibrant district with a rich cultural heritage and natural beauty, making it a popular destination for tourists and a place of significance for the people of Bangladesh."
+      ]
+    },
+    {
+      "tag": [
+        "food in bangladesh"
+      ],
+      "patterns": [
+        "food in bangladesh"
+      ],
+      "responses": [
+        "Bangladesh is known for its diverse and flavorful cuisine. Here are some popular dishes in Bangladesh:\n\n1. Rice: Rice is a staple food in Bangladesh, and it is commonly served with various dishes. It can be plain rice or flavored rice such as biryani or pulao.\n\n2. Fish curry: As Bangladesh is a country with numerous rivers and bodies of water, fish is a major part of the diet. Various types of fish are used to make delicious curries, such as hilsha curry or rui macher jhol.\n\n3. Chicken tikka: Grilled or barbecued chicken tikka is a popular street food and appetizer in Bangladesh. The marinated chicken is cooked in a clay oven or tandoor and served with mint chutney.\n\n4. Bhuna khichuri: Bhuna khichuri is a traditional Bengali dish made with a mixture of lentils, rice, and spices. It is usually served with fried eggplant, mixed vegetable curry, or beef bhuna.\n\n5. Pitha: Pitha is a traditional sweet or savory snack in Bangladesh. It can be made with rice flour, coconut, jaggery, and various fillings. Pithas are often prepared during festivals and special occasions.\n\n6. Chapati: Chapati is a type of flatbread made from whole wheat flour. It is commonly eaten with curries and other side dishes in Bangladesh.\n\n7. Bhorta: Bhorta is a mashed vegetable dish that is a popular part of Bangladeshi cuisine. It is made by mashing various vegetables like potatoes, eggplant, or pumpkin with spices, mustard oil, and onions.\n\n8. Prawn malai curry: Prawn malai curry is a creamy and flavorful curry made with coconut milk, spices, and prawns. It is a popular seafood dish in Bangladesh.\n\n9. Lassi: Lassi is a popular yogurt-based drink in Bangladesh. It can be plain or flavored with fruits like mango or strawberry. Lassi is often sweetened with sugar or honey.\n\n10. Mishti doi: Mishti doi is a sweetened yogurt dessert that is popular in Bangladesh. It is made by fermenting sweetened milk overnight and is often garnished with nuts or saffron.\n\nThese are just a few examples of the delicious food you can find in Bangladesh. The country offers a wide range of flavors and culinary traditions that showcase its rich cultural heritage."
+      ]
+    },
+    {
+      "tag": [
+        "barishal?"
+      ],
+      "patterns": [
+        "barishal?"
+      ],
+      "responses": [
+        "Barishal is a city located in southern Bangladesh. It is the largest city and the administrative headquarters of Barishal Division. The city is known for its historic architecture, mosques, rivers, and waterways. Barishal has a rich cultural heritage and is often referred to as the \"Venice of the East\" due to its extensive network of canals. The city is also famous for its agricultural produce, particularly paddy, known as the \"rice bowl\" of Bangladesh."
+      ]
+    },
+    {
+      "tag": [
+        "dhaka"
+      ],
+      "patterns": [
+        "dhaka"
+      ],
+      "responses": [
+        "Dhaka is the capital city of Bangladesh. It is the largest city in the country and one of the fastest-growing megacities in the world. Located on the banks of the Buriganga River, Dhaka is a bustling metropolis with a population of over 20 million people.\n\nDhaka is known for its rich cultural heritage, historical landmarks, and vibrant markets. The city is home to numerous mosques, temples, and palaces that reflect its diverse history and architectural styles. The Lalbagh Fort, Ahsan Manzil, and the National Parliament House are some of the famous attractions in Dhaka.\n\nThe city is also a major educational and economic hub in South Asia. It is home to several prestigious universities, research institutions, and multinational companies. Dhaka's economy is predominantly based on industries such as textiles, garments, pharmaceuticals, and information technology.\n\nHowever, Dhaka faces several challenges due to its rapid urbanization. Traffic congestion, air pollution, and inadequate infrastructure are some of the issues that the city grapples with. The government of Bangladesh is taking steps to address these challenges and improve the quality of life in Dhaka.\n\nOverall, Dhaka is a vibrant city with a mix of modern developments and traditional cultural heritage. It offers visitors a unique experience to explore the history, culture, and daily life of Bangladesh."
+      ]
+    },
+    {
+      "tag": [
+        "capital of pakistan?"
+      ],
+      "patterns": [
+        "capital of pakistan?"
+      ],
+      "responses": [
+        "The capital of Pakistan is Islamabad."
+      ]
+    },
+    {
+      "tag": [
+        "khulna?"
+      ],
+      "patterns": [
+        "khulna?"
+      ],
+      "responses": [
+        "Khulna is a city in southwestern Bangladesh. It is the third-largest city in the country and is located on the banks of the Rupsha and Bhairab rivers. Khulna is known for its vibrant culture, historical sites, and the Sundarbans, which is a UNESCO World Heritage site and the largest mangrove forest in the world. The city also has a thriving economy, with industries such as jute, textiles, and shipbuilding being major contributors."
+      ]
+    }
+  ]
+}
